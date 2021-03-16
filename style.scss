@@ -1,0 +1,99 @@
+body {
+  background-color: yellowgreen ;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 60%;
+  margin-left: 20%;
+  .title{
+    text-align: center;
+  }
+  .form {
+    margin-top: 12%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    input {
+      padding: 10px;
+    }
+    .submit {
+      border: none;
+      color: yellowgreen;
+      font-weight: bold ;
+      background-color: white;
+      width: 55px;
+      text-align: start;
+      border-radius: 50px;
+      padding: 10px;
+      transition: 0.3s;
+    }
+    .submit:hover {
+      color:white;
+      background-color: #32cd78;
+      cursor: pointer;
+
+
+
+    }
+  }
+}
+.todoList{
+  width: 60%;
+  margin-left: 20%;
+  .title{
+    margin-top: 40px;
+    margin-left: 25%;
+
+  }
+
+  label {
+    display: flex;
+    .submit{
+      border: none;
+      height: 50px;
+      background-color: #289fcd;
+    }
+    .todoListClass{
+      margin-left: 20%;
+      padding: 10px;
+      width: 60%;
+      border: none;
+    }
+  }
+  #myUL{
+    font-size: 20px;
+  }
+  #myUL li:nth-child(odd){
+    background-color: #54911f;
+  }
+  #myUL li {
+    list-style-type: none;
+    background-color: #5aa526;
+    text-align: start;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+
+  }
+
+  #myUL li:hover {
+    background-color: #3d750d;
+
+  }
+
+  .checked {
+    text-decoration: line-through;
+  }
+
+}
+.close {
+  right: 0;
+  padding: 10px 16px 10px 16px;
+}
+
+.close:hover {
+  background-color: #f44336;
+  color: white;
+}

@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "firstName": "Davit",
+      "lastName": "Gvasalia",
+      "phoneNumber": "599603087",
+      "address": "თბილისი",
+      "gender": "მამრობითი",
+      "id": 1
+    }
+  ],
+  "genders": [
+    {
+      "id": 1,
+      "value": "მამრობითი"
+    },
+    {
+      "id": 2,
+      "value": "მდედრობითი"
+    }
+  ]
+}
